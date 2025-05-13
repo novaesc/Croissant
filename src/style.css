@@ -37,9 +37,13 @@ gap: 10px;
 
 
 p{
+
+    max-width: 600px;
     font-family: var(--primary-font);
     text-align: center;
     display: block;
+    margin: auto;
+    font-size: 25px;
 }
 
 img {
@@ -48,4 +52,9 @@ height: 570px;
 border-radius: 5px;
 display: block;
     margin: auto;
+}
+a{
+    color: black;
+    font-family: var(--primary-font);
+    font-size: 25px;
 }
