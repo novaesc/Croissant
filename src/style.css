@@ -1,0 +1,51 @@
+
+:root{
+
+    --primary-color: rgb(241, 145, 161);
+    --primary-font:'Times New Roman', Times, serif;
+}
+
+
+
+
+body{
+    background-color: var(--primary-color)
+}
+
+h1,h2{
+    text-align: center;
+    display: block;
+    color: rgb(247, 58, 58);
+    font-size: 35px;
+    font-family: var(--primary-font);
+}
+
+.nav{
+    display:flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+gap: 10px;
+    margin-top: 50px;
+
+}
+
+.nav a{
+    color: red;
+    font-size: 20px;
+    
+}
+
+
+p{
+    font-family: var(--primary-font);
+    text-align: center;
+    display: block;
+}
+
+img {
+width: 650px;  
+height: 570px;  
+border-radius: 5px;
+display: block;
+    margin: auto;
+}
